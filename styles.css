@@ -1,0 +1,50 @@
+/* Estilo para el cuerpo del documento */
+body {
+    background-color: #000000;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilo para la tarjeta de contenido */
+.card {
+    border: 2px solid #007bff; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 2rem;
+    background-color: rgb(148, 177, 68);
+    box-shadow: 0 0 10px rgba(202, 196, 196, 0.1); /* Sombra */
+}
+
+/* Estilo para la imagen principal */
+.img-fluid {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%; /* Bordes redondeados */
+    opacity: 0.9; /* Imagen opaca */
+    margin-bottom: 2rem;
+}
+
+/* Estilo para los iconos de redes sociales */
+.social-icons i {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    color: #27398b;
+}
+
+/* Estilo para la imagen en miniatura */
+.img-thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo para el enlace */
+.img-thumbnail:hover {
+    opacity: 0.8;
+}
